@@ -1,0 +1,8 @@
+alias la='ls -al'
+alias ll='ls -l'
+alias rm='trash'
+alias cp='cp'
+alias be='bundle exec'
+alias mkdir='mkdir -p'
+alias sudo='sudo '
+
