@@ -1,0 +1,32 @@
+
+set whichwrap=b,s,h,l,<,>,[,]
+set backspace=indent,eol,start
+
+imap <silent><C-a> <Esc>a i
+imap <silent><C-e> <Esc>e i
+
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-l> <Right>
+
+inoremap <C-x> <DEL>
+inoremap <C-d> <BS>
+inoremap <silent><C-a> <Esc>:<C-u>call <SID>rotate_home()<CR>i
+inoremap <C-e> <End>
+
+nmap <silent>1 :<C-u>call <SID>rotate_home()<CR>
+nmap 2 $
+nmap 9 $
+nnoremap <C-a> :<C-u>call <SID>rotate_home()<CR>
+nnoremap <C-e> $
+nnoremap <silent>a :<C-u>call <SID>rotate_home()<CR>
+
+nnoremap ; :
+
+function! s:rotate_home()
+  let cursol_position = col(".")
+  let cmd = cursol_position == 1 ? '^' : '0'
+    execute "normal! ".cmd
+endfunction
+
