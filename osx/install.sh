@@ -19,6 +19,7 @@ echo '/usr/local/bin/zsh' >> /etc/shells
 
 brew install git
 brew install tig
+brew install git-flow
 brew install wget
 brew install tmux
 brew install trash
@@ -42,6 +43,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install vagrant
+brew cask install virtualbox
 brew cask install karabiner
 brew cask install slack
 brew cask install java
@@ -49,4 +51,6 @@ brew cask install java7
 brew cask install intellij-idea
 brew cask install xtrafinder
 brew cask install fabric
+brew cask install mono-mdk
+brew cask install xamarin-studio
 
