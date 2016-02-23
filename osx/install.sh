@@ -29,6 +29,7 @@ brew install gnu-sed
 brew install tree
 brew install rbenv
 brew install carthage
+brew install sbt
 
 # rbenv
 brew install ruby-build
