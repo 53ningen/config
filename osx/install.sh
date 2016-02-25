@@ -30,6 +30,10 @@ brew install tree
 brew install rbenv
 brew install carthage
 brew install sbt
+brew install python
+
+# pip
+pip install aws
 
 # rbenv
 brew install ruby-build
