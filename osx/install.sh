@@ -32,6 +32,10 @@ brew install carthage
 brew install sbt
 brew install python
 
+# haskell
+brew install haskell-stack
+stack setup
+
 # pip
 pip install aws
 

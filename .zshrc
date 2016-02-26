@@ -66,6 +66,10 @@ RPROMPT="%1(v|%F{green}%1v%f|)"
 # bind
 bindkey -e
 
+# haskell
+alias ghc="stack ghc"
+alias ghci="stack ghci"
+
 # java_home
 export JAVA_HOME=`/usr/libexec/java_home -v $JAVA_VERSION`
 
