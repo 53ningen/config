@@ -8,3 +8,5 @@ sudo addgroup nginx
 sudo useradd -s /usr/sbin/nologin -g nginx -d /var/www -c nginx nginx
 sudo sysv-rc-conf nginx on
 
+sudo ufw allow 8080/tcp
+
