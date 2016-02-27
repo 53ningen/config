@@ -37,7 +37,7 @@ brew install haskell-stack
 stack setup
 
 # pip
-pip install aws
+pip install aws-cli
 
 # rbenv
 brew install ruby-build
