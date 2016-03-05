@@ -32,6 +32,7 @@ brew install carthage
 brew install sbt
 brew install python
 brew install ant
+brew install imagemagick
 
 # haskell
 brew install haskell-stack
