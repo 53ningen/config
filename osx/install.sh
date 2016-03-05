@@ -63,4 +63,5 @@ brew cask install fabric
 brew cask install mono-mdk
 brew cask install xamarin-studio
 brew cask install appcode
+brew cask install phpstorm
 
