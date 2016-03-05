@@ -31,6 +31,7 @@ brew install rbenv
 brew install carthage
 brew install sbt
 brew install python
+brew install ant
 
 # haskell
 brew install haskell-stack
