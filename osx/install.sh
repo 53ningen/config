@@ -38,10 +38,6 @@ brew install imagemagick
 brew install haskell-stack
 stack setup
 
-# mit-scheme
-brew cask install xquartz
-brew install mit-scheme
-
 # pip
 pip install aws-cli
 
@@ -70,4 +66,5 @@ brew cask install mono-mdk
 brew cask install xamarin-studio
 brew cask install appcode
 brew cask install phpstorm
+brew cask install firefox
 
