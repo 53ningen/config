@@ -34,6 +34,10 @@ brew install python
 brew install ant
 brew install imagemagick
 
+# mysql
+brew install mysql
+mysql.server start
+
 # haskell
 brew install haskell-stack
 stack setup
