@@ -33,6 +33,7 @@ brew install sbt
 brew install python
 brew install ant
 brew install imagemagick
+brew install redis
 
 # mysql
 brew install mysql
