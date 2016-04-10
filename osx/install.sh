@@ -34,6 +34,7 @@ brew install python
 brew install ant
 brew install imagemagick
 brew install redis
+brew install binutils
 
 # mysql
 brew install mysql
