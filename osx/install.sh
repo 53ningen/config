@@ -73,4 +73,5 @@ brew cask install xamarin-studio
 brew cask install appcode
 brew cask install phpstorm
 brew cask install firefox
+brew cask install kindle 
 
