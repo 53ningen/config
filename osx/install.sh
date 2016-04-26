@@ -35,6 +35,7 @@ brew install ant
 brew install imagemagick
 brew install redis
 brew install binutils
+brew install cmake
 
 # mysql
 brew install mysql
@@ -74,4 +75,5 @@ brew cask install appcode
 brew cask install phpstorm
 brew cask install firefox
 brew cask install kindle 
+brew cask install julia
 
