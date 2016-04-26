@@ -76,4 +76,4 @@ brew cask install phpstorm
 brew cask install firefox
 brew cask install kindle 
 brew cask install julia
-
+brew cask install clion
