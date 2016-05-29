@@ -36,6 +36,7 @@ brew install imagemagick
 brew install redis
 brew install binutils
 brew install cmake
+brew install memcached
 
 # mysql
 brew install mysql
