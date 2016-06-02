@@ -6,3 +6,7 @@ alias be='bundle exec'
 alias mkdir='mkdir -p'
 alias sudo='sudo '
 
+if [ `uname`='Darwin' ]; then
+  alias sed='gsed'
+fi
+
