@@ -8,5 +8,6 @@ alias sudo='sudo '
 
 if [ `uname`='Darwin' ]; then
   alias sed='gsed'
+  alias ls='gls'
 fi
 
