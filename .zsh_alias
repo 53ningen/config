@@ -1,13 +1,14 @@
-alias la='ls -al'
-alias ll='ls -l'
-alias rm='trash'
-alias cp='cp'
-alias be='bundle exec'
-alias mkdir='mkdir -p'
-alias sudo='sudo '
 
 if [ `uname`='Darwin' ]; then
   alias sed='gsed'
   alias ls='gls'
 fi
+
+alias la='ls -al --color'
+alias ll='ls -l --color'
+alias rm='trash'
+alias cp='cp'
+alias be='bundle exec'
+alias mkdir='mkdir -p'
+alias sudo='sudo '
 
