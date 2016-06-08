@@ -48,6 +48,7 @@ stack setup
 
 # pip
 pip install aws-cli
+pip install awsebcli
 
 # rbenv
 brew install ruby-build
