@@ -80,4 +80,5 @@ brew cask install kindle
 brew cask install julia
 brew cask install clion
 brew cask install wireshark
+brew cask install android-studio
 
