@@ -73,6 +73,8 @@ brew cask install xtrafinder
 brew cask install fabric
 brew cask install mono-mdk
 brew cask install xamarin-studio
+brew cask install xamarin-ios
+brew cask install xamarin-andorid
 brew cask install appcode
 brew cask install phpstorm
 brew cask install firefox
