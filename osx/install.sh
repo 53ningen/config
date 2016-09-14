@@ -37,6 +37,9 @@ brew install redis
 brew install binutils
 brew install cmake
 brew install memcached
+brew install cloc
+brew install ocaml
+brew install opam
 
 # mysql
 brew install mysql
