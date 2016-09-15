@@ -2,6 +2,9 @@
 # homebrew
 # /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# ssh-copy-id
+curl -L https://raw.githubusercontent.com/beautifulcode/ssh-copy-id-for-OSX/master/install.sh | sh
+
 # cask
 brew tap caskroom/cask
 brew tap caskroom/versions
