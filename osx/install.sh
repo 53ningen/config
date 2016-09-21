@@ -43,6 +43,7 @@ brew install memcached
 brew install cloc
 brew install ocaml
 brew install opam
+brew install clang-format
 
 # mysql
 brew install mysql
