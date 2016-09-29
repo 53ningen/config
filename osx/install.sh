@@ -44,6 +44,7 @@ brew install cloc
 brew install ocaml
 brew install opam
 brew install clang-format
+brew install ltsview
 
 # mysql
 brew install mysql
