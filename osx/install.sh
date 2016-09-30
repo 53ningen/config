@@ -44,7 +44,7 @@ brew install cloc
 brew install ocaml
 brew install opam
 brew install clang-format
-brew install ltsview
+brew install terraform 
 
 # mysql
 brew install mysql
