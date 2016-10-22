@@ -26,6 +26,7 @@ brew install git-flow
 brew install wget
 brew install tmux
 brew install trash
+brew install homebrew/apache/ab
 brew install jq
 brew install coreutils
 brew install gnu-sed
@@ -45,6 +46,7 @@ brew install ocaml
 brew install opam
 brew install clang-format
 brew install terraform 
+brew install maven
 
 # mysql
 brew install mysql
