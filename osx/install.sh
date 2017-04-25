@@ -9,6 +9,10 @@ curl -L https://raw.githubusercontent.com/beautifulcode/ssh-copy-id-for-OSX/mast
 brew tap caskroom/cask
 brew tap caskroom/versions
 
+# KeyRepeat
+defaults write -g InitialKeyRepeat -int 10 # 150ms
+defaults write -g KeyRepeat -int 1 # 15ms
+
 # install
 brew install bash-completion
 echo 'if [ -f $(brew --prefix)/etc/bash_completion ]; then' >> ~/.bash_profile
@@ -26,7 +30,6 @@ brew install git-flow
 brew install wget
 brew install tmux
 brew install trash
-brew install homebrew/apache/ab
 brew install jq
 brew install coreutils
 brew install gnu-sed
@@ -41,11 +44,8 @@ brew install redis
 brew install binutils
 brew install cmake
 brew install memcached
-brew install cloc
-brew install ocaml
-brew install opam
 brew install clang-format
-brew install terraform 
+brew install terraform
 brew install maven
 
 # mysql
@@ -71,6 +71,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 # rbenv rehash
 
 brew cask install google-chrome
+brew cask install dropbox
 brew cask install iterm2
 brew cask install vagrant
 brew cask install virtualbox
@@ -85,12 +86,5 @@ brew cask install mono-mdk
 brew cask install xamarin-studio
 brew cask install xamarin-ios
 brew cask install xamarin-andorid
-brew cask install appcode
-brew cask install phpstorm
-brew cask install firefox
-brew cask install kindle 
-brew cask install julia
-brew cask install clion
-brew cask install wireshark
+brew cask install kindle
 brew cask install android-studio
-

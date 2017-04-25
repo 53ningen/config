@@ -2,7 +2,7 @@
   generic = g move-first-line
   generic = G move-last-line
 [user]
-  name = 53ningen 
+  name = gomi_ningen
 [core]
   excludesfile = /Users/yuki_yanagi/.gitignore_global
 [difftool "sourcetree"]
@@ -14,7 +14,7 @@
 [alias]
   co = checkout
   gr = log --graph
-  n = config user.name 53nigen
+  n = config user.name gomi_ningen
   st = status
   add = add
   br = branch
@@ -26,4 +26,3 @@
   am = commit --amend
 [init]
   templatedir = /usr/local/share/git-core/templates
-
