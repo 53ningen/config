@@ -78,13 +78,13 @@ brew cask install virtualbox
 brew cask install karabiner
 brew cask install slack
 brew cask install java
-brew cask install java7
 brew cask install intellij-idea
 brew cask install xtrafinder
 brew cask install fabric
 brew cask install mono-mdk
-brew cask install xamarin-studio
-brew cask install xamarin-ios
-brew cask install xamarin-andorid
 brew cask install kindle
-brew cask install android-studio
+
+# js
+brew cask install atom
+brew install flow
+
