@@ -27,6 +27,7 @@ echo '/usr/local/bin/zsh' >> /etc/shells
 brew install git
 brew install tig
 brew install git-flow
+brew install gibo
 brew install wget
 brew install tmux
 brew install trash
